@@ -1,0 +1,65 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+.idea/
+
+# dependencies
+/node_modules
+# next.js
+/.next/
+/out/
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.env
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.todo
+desktop.ini
+react-frontend.code-workspace
+.code-workspace
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+prepros-6.config
+# yarn.lock
+# package-lock.json
+
+# Remove all css file
+
+src/**/*.css
+src/**/*.css.map
+
+# public/*.xml
+# public/sitemap.xml
+# public/sitemap-0.xml
+# public/robots.txt
+
+public/prepros-6.config
+*.code-workspace
+prepros-6.config
+
+.todo
+
+
+
+# App Menifest File
+
+
+public/_spin_base.js
+
+*.log
+
+.eslintcache
+
+reissue-sample-response.txt
+
+# Sentry
+.sentryclirc
