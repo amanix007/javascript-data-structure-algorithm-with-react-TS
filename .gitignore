@@ -34,7 +34,7 @@ prepros-6.config
 
 # Remove all css file
 
-src/**/*.css
+
 src/**/*.css.map
 
 # public/*.xml
