@@ -11,8 +11,8 @@ export default function App() {
   const [isCopied, handleCopy] = useCopyToClipboard();
   const [users, user, isLoading, next, previous] = useIterator("https://randomusers.me/api/");
   useEffect(()=> {
-    init_all_etc_javascript_problems_function();
-    all_clousure_problems();
+    // init_all_etc_javascript_problems_function();
+    // all_clousure_problems();
     init_OOP();
 
   },[])

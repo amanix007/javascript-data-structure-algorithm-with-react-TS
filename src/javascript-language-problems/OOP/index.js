@@ -1,6 +1,9 @@
 
+import ConstructorFunction from "./constructorFunction";
 import { initEmployeeRelatedFunction } from "./Employee"
+import { mergetwoJavaScriptObjectdynamically } from "./mergetwoJavaScriptObjectdynamically";
 import { objectCreate } from "./Object"
+import PreventObjectModification from "./PreventObjectModification";
 
 // class Potato {
 //   constructor() {
@@ -16,6 +19,10 @@ import { objectCreate } from "./Object"
 
 export const init_OOP = () => {
   objectCreate();
-  initEmployeeRelatedFunction()
+  initEmployeeRelatedFunction();
+  ConstructorFunction();
+  PreventObjectModification();
+  mergetwoJavaScriptObjectdynamically();
+
 
 }
