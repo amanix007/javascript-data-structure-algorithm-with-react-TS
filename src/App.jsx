@@ -5,6 +5,7 @@ import { init_all_etc_javascript_problems_function } from './javascript-language
 import { init_OOP } from './javascript-language-problems/OOP';
 import useCopyToClipboard from './react/hooks/useCopyToClipboard'
 import useIterator from './react/hooks/useIteration';
+import UseRef from './react/hooks/useRef';
 
 export default function App() {
 
@@ -20,6 +21,7 @@ export default function App() {
     <main>
       React ⚛️ + Vite ⚡ + Replit 🌀
       <button onClick={() => handleCopy("dd")}>click {isCopied ? "iscopied" : "not copied"}</button>
+      <UseRef/>
     </main>
   )
 }
