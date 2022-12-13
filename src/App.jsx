@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import './App.css'
+import DSA_Execution from './data-structures';
 import { DesignPatterns } from './design-patterns/DesignPatterns';
 import { all_clousure_problems } from './javascript-language-problems/closure/closure';
 import { init_all_etc_javascript_problems_function } from './javascript-language-problems/etc/etc';
@@ -15,8 +16,9 @@ export default function App() {
   useEffect(()=> {
     // init_all_etc_javascript_problems_function();
     // all_clousure_problems();
-    init_OOP();
-    DesignPatterns();
+    // init_OOP();
+    // DesignPatterns();
+    DSA_Execution()
 
   },[])
   return (

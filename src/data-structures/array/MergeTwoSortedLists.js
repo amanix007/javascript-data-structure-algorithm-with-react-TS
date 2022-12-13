@@ -43,5 +43,8 @@
     
 };
 
-mergeTwoLists([1,4,5],[1,2,3,4,5])
 
+export default  function mergeTwoListsExecution (){
+  mergeTwoLists([1,4,5],[1,2,3,4,5])
+  
+}

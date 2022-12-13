@@ -1,4 +1,4 @@
-export default function() {
+
 
   
   var groupAnagrams = function(strs) {
@@ -20,10 +20,10 @@ export default function() {
     return [];
   };
   
-    console.log("groupAnagrams",groupAnagrams(["eat","tea","tan","ate","nat","bat"]));
+    
     
   
-  }
+  
   
   
   // Installed npm packages: jquery underscore request express
@@ -41,4 +41,9 @@ export default function() {
   
   
   
-  
+  export default function groupAnagramsExecution(){
+    console.log("groupAnagrams",
+    groupAnagrams(["eat","tea","tan","ate","nat","bat"])
+    );
+
+  }
