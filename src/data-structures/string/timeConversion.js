@@ -19,7 +19,7 @@ export default function timeConversion(s="07:05:45PM") {
     console.log('hour24:', hour24)
     if (timePeriod === "AM" && hour === 12) {
       hour24 = "00";
-    } else if (timePeriod == "PM" && hour > 12) {
+    } else if (timePeriod == "PM") {
       console.log('hit:')
         hour24 = 12 + hour;
 
