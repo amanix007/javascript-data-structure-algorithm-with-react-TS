@@ -4,5 +4,6 @@
   },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "cSpell.enabled": false
+  "cSpell.enabled": false,
+  "mdx-preview.preview.useVscodeMarkdownStyles": false
 }
